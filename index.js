@@ -51,4 +51,6 @@ function wagesEarnedOnDate (employee, date) {
   return pay 
 } 
 
-function allWagesFor (employee)
+function allWagesFor (employee) { 
+  
+} 
