@@ -60,6 +60,6 @@ function allWagesFor (employee) {
 } 
 
 function calculatePayroll (employees) { 
-  let pay = 0 
+  let allpay = 0 
   
 } 
