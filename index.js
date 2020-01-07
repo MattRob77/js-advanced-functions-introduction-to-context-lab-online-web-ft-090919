@@ -68,4 +68,4 @@ function calculatePayroll (employees) {
     return allPay
 }
 
-function findEmployeeByFirstName 
+function findEmployeeByFirstName ()
