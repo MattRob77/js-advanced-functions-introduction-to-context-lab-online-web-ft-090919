@@ -51,7 +51,11 @@ function wagesEarnedOnDate (employee, date) {
   return pay 
 } 
 
-function allWagesFor (employee) { 
-  let pay = 0
-  for (let i = 0; i<)
+function allWagesFor (employee) {
+    let pay = 0
+    for (let i = 0; i < employee.timeInEvents.length; i++) {
+        pay += wagesEarnedOnDate(employee, employee.timeInEvents[i].date)
+    }
+    return pay
+}
 } 
