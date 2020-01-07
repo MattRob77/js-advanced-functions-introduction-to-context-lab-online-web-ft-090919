@@ -57,5 +57,4 @@ function allWagesFor (employee) {
         pay += wagesEarnedOnDate(employee, employee.timeInEvents[i].date)
     }
     return pay
-}
 } 
