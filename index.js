@@ -53,5 +53,5 @@ function wagesEarnedOnDate (employee, date) {
 
 function allWagesFor (employee) { 
   let pay = 0
-  for (let )
+  for (let i = 0)
 } 
