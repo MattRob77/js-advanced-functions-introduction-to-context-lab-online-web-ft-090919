@@ -46,5 +46,5 @@ function hoursWorkedOnDate (employee, date) {
 } 
 
 function wagesEarnedOnDate (employee, date) { 
-  let hours = 
+  let hours = hoursWorkedOnDate(employee, date)
 } 
