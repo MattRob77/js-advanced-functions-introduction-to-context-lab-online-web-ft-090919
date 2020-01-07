@@ -50,3 +50,5 @@ function wagesEarnedOnDate (employee, date) {
   let pay = hours * employee.payPerHour
   return pay 
 } 
+
+function allWagesFor (employee)
