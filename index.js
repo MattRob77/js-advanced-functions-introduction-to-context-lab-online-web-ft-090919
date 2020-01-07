@@ -69,5 +69,5 @@ function calculatePayroll (employees) {
 }
 
 function findEmployeeByFirstName (employees, firstName) { 
-  
+  return.employee.find 
 } 
