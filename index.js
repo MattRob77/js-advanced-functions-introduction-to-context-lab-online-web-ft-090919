@@ -62,7 +62,8 @@ function allWagesFor (employee) {
 function calculatePayroll (employees) {
     let allPay = 0
     employees.forEach(employee => {
-        allPay += allWagesFor(employee)
+      allPay += allWagesFor(employee)
+      
     })
     return allPay
 }
